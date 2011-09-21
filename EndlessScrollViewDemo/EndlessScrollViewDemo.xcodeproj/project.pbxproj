@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34BDE9A51429A756008AE732 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34BDE9A41429A756008AE732 /* UIKit.framework */; };
+		34BDE9A71429A756008AE732 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34BDE9A61429A756008AE732 /* Foundation.framework */; };
+		34BDE9A91429A756008AE732 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34BDE9A81429A756008AE732 /* CoreGraphics.framework */; };
+		34BDE9AF1429A756008AE732 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34BDE9AD1429A756008AE732 /* InfoPlist.strings */; };
+		34BDE9B11429A756008AE732 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BDE9B01429A756008AE732 /* main.m */; };
+		34BDE9B51429A756008AE732 /* EndlessScrollViewDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BDE9B41429A756008AE732 /* EndlessScrollViewDemoAppDelegate.m */; };
+		34BDE9B81429A756008AE732 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34BDE9B61429A756008AE732 /* MainWindow.xib */; };
+		34BDE9C11429A7A5008AE732 /* EndlessScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BDE9C01429A7A5008AE732 /* EndlessScrollView.m */; };
+		34BDE9C61429A8EF008AE732 /* 6168606240_1b15c5fee7_b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34BDE9C31429A8EF008AE732 /* 6168606240_1b15c5fee7_b.jpg */; };
+		34BDE9C71429A8EF008AE732 /* 6167956098_61a63d2c63_b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34BDE9C41429A8EF008AE732 /* 6167956098_61a63d2c63_b.jpg */; };
+		34BDE9C81429A8EF008AE732 /* 3049137030_98c253d47e_o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34BDE9C51429A8EF008AE732 /* 3049137030_98c253d47e_o.jpg */; };
+		34BDE9CC1429AA93008AE732 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BDE9CA1429AA93008AE732 /* DemoViewController.m */; };
+		34BDE9CF1429AB66008AE732 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34BDE9CE1429AB66008AE732 /* DemoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34BDE9A01429A756008AE732 /* EndlessScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EndlessScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34BDE9A41429A756008AE732 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		34BDE9A61429A756008AE732 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34BDE9A81429A756008AE732 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		34BDE9AC1429A756008AE732 /* EndlessScrollViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EndlessScrollViewDemo-Info.plist"; sourceTree = "<group>"; };
+		34BDE9AE1429A756008AE732 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34BDE9B01429A756008AE732 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34BDE9B21429A756008AE732 /* EndlessScrollViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EndlessScrollViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		34BDE9B31429A756008AE732 /* EndlessScrollViewDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EndlessScrollViewDemoAppDelegate.h; sourceTree = "<group>"; };
+		34BDE9B41429A756008AE732 /* EndlessScrollViewDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EndlessScrollViewDemoAppDelegate.m; sourceTree = "<group>"; };
+		34BDE9B71429A756008AE732 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		34BDE9BF1429A7A5008AE732 /* EndlessScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EndlessScrollView.h; path = ../../Core/EndlessScrollView.h; sourceTree = "<group>"; };
+		34BDE9C01429A7A5008AE732 /* EndlessScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EndlessScrollView.m; path = ../../Core/EndlessScrollView.m; sourceTree = "<group>"; };
+		34BDE9C31429A8EF008AE732 /* 6168606240_1b15c5fee7_b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6168606240_1b15c5fee7_b.jpg; sourceTree = "<group>"; };
+		34BDE9C41429A8EF008AE732 /* 6167956098_61a63d2c63_b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6167956098_61a63d2c63_b.jpg; sourceTree = "<group>"; };
+		34BDE9C51429A8EF008AE732 /* 3049137030_98c253d47e_o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3049137030_98c253d47e_o.jpg; sourceTree = "<group>"; };
+		34BDE9C91429AA93008AE732 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		34BDE9CA1429AA93008AE732 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		34BDE9CE1429AB66008AE732 /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34BDE99D1429A756008AE732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BDE9A51429A756008AE732 /* UIKit.framework in Frameworks */,
+				34BDE9A71429A756008AE732 /* Foundation.framework in Frameworks */,
+				34BDE9A91429A756008AE732 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34BDE9951429A756008AE732 = {
+			isa = PBXGroup;
+			children = (
+				34BDE9AA1429A756008AE732 /* EndlessScrollViewDemo */,
+				34BDE9A31429A756008AE732 /* Frameworks */,
+				34BDE9A11429A756008AE732 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34BDE9A11429A756008AE732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34BDE9A01429A756008AE732 /* EndlessScrollViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34BDE9A31429A756008AE732 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34BDE9A41429A756008AE732 /* UIKit.framework */,
+				34BDE9A61429A756008AE732 /* Foundation.framework */,
+				34BDE9A81429A756008AE732 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34BDE9AA1429A756008AE732 /* EndlessScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				34BDE9C21429A830008AE732 /* Files */,
+				34BDE9BE1429A79B008AE732 /* Core */,
+				34BDE9B31429A756008AE732 /* EndlessScrollViewDemoAppDelegate.h */,
+				34BDE9B41429A756008AE732 /* EndlessScrollViewDemoAppDelegate.m */,
+				34BDE9B61429A756008AE732 /* MainWindow.xib */,
+				34BDE9AB1429A756008AE732 /* Supporting Files */,
+				34BDE9C91429AA93008AE732 /* DemoViewController.h */,
+				34BDE9CA1429AA93008AE732 /* DemoViewController.m */,
+				34BDE9CE1429AB66008AE732 /* DemoViewController.xib */,
+			);
+			path = EndlessScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		34BDE9AB1429A756008AE732 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34BDE9AC1429A756008AE732 /* EndlessScrollViewDemo-Info.plist */,
+				34BDE9AD1429A756008AE732 /* InfoPlist.strings */,
+				34BDE9B01429A756008AE732 /* main.m */,
+				34BDE9B21429A756008AE732 /* EndlessScrollViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34BDE9BE1429A79B008AE732 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				34BDE9BF1429A7A5008AE732 /* EndlessScrollView.h */,
+				34BDE9C01429A7A5008AE732 /* EndlessScrollView.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		34BDE9C21429A830008AE732 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				34BDE9C31429A8EF008AE732 /* 6168606240_1b15c5fee7_b.jpg */,
+				34BDE9C41429A8EF008AE732 /* 6167956098_61a63d2c63_b.jpg */,
+				34BDE9C51429A8EF008AE732 /* 3049137030_98c253d47e_o.jpg */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34BDE99F1429A756008AE732 /* EndlessScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34BDE9BB1429A756008AE732 /* Build configuration list for PBXNativeTarget "EndlessScrollViewDemo" */;
+			buildPhases = (
+				34BDE99C1429A756008AE732 /* Sources */,
+				34BDE99D1429A756008AE732 /* Frameworks */,
+				34BDE99E1429A756008AE732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EndlessScrollViewDemo;
+			productName = EndlessScrollViewDemo;
+			productReference = 34BDE9A01429A756008AE732 /* EndlessScrollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34BDE9971429A756008AE732 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 34BDE99A1429A756008AE732 /* Build configuration list for PBXProject "EndlessScrollViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34BDE9951429A756008AE732;
+			productRefGroup = 34BDE9A11429A756008AE732 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34BDE99F1429A756008AE732 /* EndlessScrollViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34BDE99E1429A756008AE732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BDE9AF1429A756008AE732 /* InfoPlist.strings in Resources */,
+				34BDE9B81429A756008AE732 /* MainWindow.xib in Resources */,
+				34BDE9C61429A8EF008AE732 /* 6168606240_1b15c5fee7_b.jpg in Resources */,
+				34BDE9C71429A8EF008AE732 /* 6167956098_61a63d2c63_b.jpg in Resources */,
+				34BDE9C81429A8EF008AE732 /* 3049137030_98c253d47e_o.jpg in Resources */,
+				34BDE9CF1429AB66008AE732 /* DemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34BDE99C1429A756008AE732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BDE9B11429A756008AE732 /* main.m in Sources */,
+				34BDE9B51429A756008AE732 /* EndlessScrollViewDemoAppDelegate.m in Sources */,
+				34BDE9C11429A7A5008AE732 /* EndlessScrollView.m in Sources */,
+				34BDE9CC1429AA93008AE732 /* DemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34BDE9AD1429A756008AE732 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34BDE9AE1429A756008AE732 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		34BDE9B61429A756008AE732 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34BDE9B71429A756008AE732 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34BDE9B91429A756008AE732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34BDE9BA1429A756008AE732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34BDE9BC1429A756008AE732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EndlessScrollViewDemo/EndlessScrollViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "EndlessScrollViewDemo/EndlessScrollViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		34BDE9BD1429A756008AE732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EndlessScrollViewDemo/EndlessScrollViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "EndlessScrollViewDemo/EndlessScrollViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34BDE99A1429A756008AE732 /* Build configuration list for PBXProject "EndlessScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BDE9B91429A756008AE732 /* Debug */,
+				34BDE9BA1429A756008AE732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34BDE9BB1429A756008AE732 /* Build configuration list for PBXNativeTarget "EndlessScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BDE9BC1429A756008AE732 /* Debug */,
+				34BDE9BD1429A756008AE732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34BDE9971429A756008AE732 /* Project object */;
+}
