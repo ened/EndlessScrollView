@@ -27,7 +27,7 @@
 @end
 
 @protocol EndlessScrollViewDelegate <NSObject>
-
+@optional
 - (void) endlessScrollView:(EndlessScrollView*) sender 
        currentIndexChanged:(NSInteger)idx;
 

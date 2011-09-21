@@ -70,7 +70,9 @@
         self.pageControl.currentPage = idx;
     }
     
-    [self.endlessScrollViewDelegate endlessScrollView:self currentIndexChanged:idx];
+    if(self.endlessScrollViewDelegate && [self.endlessScrollViewDelegate respondsToSelector:@selector(endlessScrollView:currentIndexChanged:)]) {
+        [self.endlessScrollViewDelegate endlessScrollView:self currentIndexChanged:idx];
+    }
 }
 
 - (void) scrollViewDidScroll:(UIScrollView *)_scrollView {
